@@ -1,0 +1,175 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+    
+    /* margin: 10px auto;
+    height: 50px;
+    padding: 2rem; */
+    /* display: flex;
+    margin: 10px auto;
+    width: 80%;
+    padding: 2rem;
+    border-radius: 3%;
+    box-shadow: 10px 5px 5px black; */
+}
+
+.div-presentation {
+    /* background-color: lightcoral; */
+    margin-left: 15%;
+    margin-right: 15%;
+    /* padding: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content:center
+}
+
+.detail-presentation{
+    /* background-color: blueviolet; */
+    width: 50%;  
+    color: #293949;
+    text-align: start;
+}
+
+.hi-about {
+    font-size: 1.5em;
+    margin: 0em;
+}
+
+.name-about {
+    font-size: 2.5em;
+    margin: 0em;
+}
+
+.profession {
+    font-size: 1.7em;
+    margin: 0em;
+}
+
+.div-photo {
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-left: 60px; */
+    display: flex;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    justify-content: flex-end;
+    
+    
+}
+
+.about-photo {
+    width: 230px;
+}
+
+.div-about-me {
+    /* background-color: lawngreen; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 65px;
+}
+
+.title-about-me{
+    font-size: 1.6em;
+    color: #293949
+}
+
+.p-about-me {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height : 25px;
+    /* color: #848484; */
+    
+}
+
+
+.btn-cv {
+    background-color: #01a9db;
+    color: #ffffff;
+    border: none;
+    outline: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    /*
+    padding: 10px 50px;
+    box-shadow: 3px 3px 3px #005fab */
+    padding: 7px 25px;
+    font-size: 1em;
+    box-shadow: 1px 1px 2px #005fab;
+    
+}
+
+.btn-cv:hover {
+    background: #005fab;
+    /* box-shadow: 3px 3px 3px #01a9db; */
+    transition: .5s;
+}
+
+@media (max-width: 768px){
+    .div-presentation {
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+    .hi-about {
+        font-size: 1.3em;
+        margin: 0em;
+    }
+    
+    .name-about {
+        font-size: 1.8em;
+        margin: 0em;
+    }
+    
+    .profession {
+        font-size: 1.5em;
+        margin: 0em;
+    }
+    .about-photo {
+        width: 180px;
+    }
+
+    .p-about-me {
+        padding: 0% 10%;
+        /* padding-right: 10%;
+        padding-left: 10%;        */
+    }
+}
+
+@media (max-width: 360px){
+    .div-presentation {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin: 0% 5%;
+    }
+
+
+    /* display: flex;
+    align-items: center;
+    justify-content:center */
+
+
+
+    .detail-presentation{
+        width: 100%;  
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div-photo {
+        width: 100%;
+        justify-content:center
+    }
+
+    .p-about-me {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
