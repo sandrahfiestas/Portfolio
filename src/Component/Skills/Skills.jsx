@@ -27,9 +27,6 @@ function Skills(){
   ) 
 };
 
-{/* <img src={require('../images/tech1.png')} alt="My Skills" className="skillsIcons"></img> */}
-
-
 export default Skills;
 
             {/* <div className="subtitle">
