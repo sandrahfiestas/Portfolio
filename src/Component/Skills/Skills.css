@@ -14,13 +14,12 @@
 }
 
 .skills {
-  background-color: mediumseagreen;
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 20% 5%;
+  grid-gap: 25% 5%;
 }
 
 .skills-icons {
@@ -30,15 +29,3 @@
 }
 
 
-/*
-.about-skills{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skill{
-    background-color: palevioletred;
-    margin: 0.3rem;
-    padding: 0.8rem;
-    border-radius: 6%;
-} */
