@@ -1,7 +1,6 @@
 
 import React  from 'react';
 import './Navbar.css';
-import menuBurger from '../../images/menu_burger.png';
 
 function Navbar(){
 
@@ -9,13 +8,13 @@ function Navbar(){
     <nav>
     <input type="checkbox" id="check"/>
     <label for="check" className="checkbtn">
-    <img src={menuBurger} className="fas fa-bars btn-burger" alt="burger" />
+    <img src={require('../../images/menu_burger.png')} className="fas fa-bars btn-burger" alt="burger" />
     </label>
     {/* <label className="logo">SJHF</label> */}
-      <ul>
-        <li><a className="active" href="#" className="active">Acerca de mi</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contacto</a></li>
+      <ul className="uli">
+        <li><a className="" href="#about">ABOUT</a></li>
+        <li><a href="#project">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
 ) 

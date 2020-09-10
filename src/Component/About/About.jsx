@@ -11,7 +11,7 @@ function About(){
         )         
     })
     return(
-        <div className="about">
+        <div id="about" className="about">
             <div className="div-presentation">
                 <div className="detail-presentation">
                     <h2 className="hi-about">Hola, mi nombre es</h2>
@@ -26,17 +26,8 @@ function About(){
             <div className="div-about-me">
                 <h1 className="title-about-me">ACERCA DE MI</h1>
                 <p className="p-about-me">{data.about_me}</p>
-                <a target="_blank"  href="https://drive.google.com/file/d/1MwxxzKvFkpwNt3mwzFtsM5X7sanIpwMk/view?usp=sharing"><button className="btn-cv">Ver CV</button></a>
+                <button className="btn-cv"><a target="_blank"  href="https://drive.google.com/file/d/1MwxxzKvFkpwNt3mwzFtsM5X7sanIpwMk/view?usp=sharing">Ver CV</a></button>
             </div>
-
-            {/* <div className="subtitle">
-                <h2>Skills</h2>
-                <ul className="about-skills">
-                    {data.skills && data.skills.map((skill, index) =>
-                        <p className="skill">{skill}</p>
-                    )}
-                </ul>
-            </div> */}
         </div>
     )
 };

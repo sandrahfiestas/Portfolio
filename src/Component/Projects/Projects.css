@@ -1,15 +1,13 @@
 .container-projects {
-  margin-top: 7em;
   margin-left: 13%;
   margin-right: 13%;
 }
 
 .main-card {
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .card-project {
-  /* background-color: palevioletred; */
   padding-bottom: 8em;
   display: flex;
   align-items: center;
@@ -23,14 +21,17 @@
 
 .card-information {
   text-align: center;
+  padding: 0.5em;
+}
+
+.card-image {
+  padding: 0.5em;
 }
 
 .p-information {
   margin-top: 20px;
   font-size: 1.2em;
   text-align: justify;
-  padding-right: 0%;
-  padding-left: 6%;
   line-height : 25px;
   
 }
@@ -54,13 +55,27 @@
   transition: .5s;
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 952px){
+  .card-project {
+    flex-direction: column; 
+  }
 
-} */
+  .card-information {
+    margin-top: 10px;
+  }
+}
 
 @media (max-width: 360px){
   .container-projects {
     margin-left: 2%;
     margin-right: 2%;
+  }
+
+  .card-project {
+    padding-bottom: 4em;
+  }
+
+  .img-project {
+    width: 340px;
   }
 }

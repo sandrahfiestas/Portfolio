@@ -21,7 +21,7 @@ function Projects(){
             </div> */}
 
   return(
-    <section className="container-projects">
+    <section id="project" className="container-projects">
     <h2 className="subtitle">Proyectos</h2>
  
       <div className="main-card">
@@ -33,7 +33,7 @@ function Projects(){
             </div>
           
             <div className="card-information">
-              <div>
+              <div className="div-information">
                 <h1>{project.title}</h1>
                 <h3>{project.name}</h3>
                 <p className="p-information">{project.description}</p>

@@ -4,6 +4,9 @@ import './App.css';
 import Navbar from './Component/Navbar/Navbar';
 import About from './Component/About/About';
 import Skills from './Component/Skills/Skills';
+import Projects from './Component/Projects/Projects';
+import Contact from './Component/Contact/Contact';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -11,6 +14,10 @@ function App() {
       <Navbar />
       <About />
       <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+      
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
