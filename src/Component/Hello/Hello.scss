@@ -1,0 +1,63 @@
+.div-hello {
+  position: relative;
+}
+
+.div-name {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+.hi {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  color: #01a9db;
+}
+
+.line {
+  border-bottom-style: solid;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  color: #01a9db
+}
+
+.texts {
+  padding-top: 0.5em;
+}
+
+
+@media (max-width: 768px){
+  .hi {
+    font-size: 1em;
+  }
+  .name {
+    font-size: 1.4em;
+  }
+  .texts {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 360px){
+  .div-name {
+    top: 40%
+  }
+  .hi {
+    font-size: 0.8em;
+  }
+  .name {
+    font-size: 1em;
+  }
+  .texts {
+    font-size: 0.7em;
+  }
+}
