@@ -1,9 +1,10 @@
 import React  from 'react';
-import './Contact.css';
+import './Contact.scss';
 
 function Contact(){
   return(
     <section id="contact" className="container-contact">
+      <p className="subtitle-dos">¿Listo para hablar sobre trabajar juntos?</p>
       <h1 className="title-contact">CONTÁCTAME</h1>
       <div className="networks">
       
