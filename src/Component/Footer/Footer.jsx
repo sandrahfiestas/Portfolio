@@ -1,10 +1,10 @@
 import React  from 'react';
-import './Footer.css';
+import './Footer.scss';
 
 function Footer(){
   return(
     <footer className="footer">
-      <p className="p-footer">© SANDRA HUAMÁN FIESTAS   2020</p>
+      <p className="p-footer">Portfolio designed by shfiestas, 2020</p>
     </footer>
   )
 }
