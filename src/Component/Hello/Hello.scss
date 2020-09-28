@@ -1,15 +1,14 @@
 .div-hello {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .div-name {
-  margin: 0;
-  padding: 0;
+  margin: 0% 5%;
   position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+  top: 28%;
   text-align: center;
   color: white;
   font-size: 3em;
@@ -36,6 +35,10 @@
 
 
 @media (max-width: 768px){
+  .div-name {
+    font-size: 2.5em;
+  }
+
   .hi {
     font-size: 1em;
   }
@@ -49,7 +52,7 @@
 
 @media (max-width: 360px){
   .div-name {
-    top: 40%
+    top: 35%
   }
   .hi {
     font-size: 0.8em;
