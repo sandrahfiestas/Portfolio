@@ -70,28 +70,27 @@ a.active,a:hover {
 
 @media (max-width: 768px){
   .logo {
-    margin-left: 10px;
-  }
-
-  .a-logo {
-    margin-left: 10px;
-  }
-}
-
-@media (max-width: 360px){
-  .logo {
-    margin-top: 17px;
+    margin-top: 13px;
     width: 50px;
     margin-left: 5px;
   }
-  
+
   .a-logo {
     margin-left: 5px;
   }
 
   nav ul{
     margin-right: 5px;
+  }
+}
 
+@media (max-width: 360px){
+  .logo {
+    margin-top: 17px;
+  }
+
+  nav ul{
+    // margin-right: 5px;
     li{
       margin: 0px;
     }
