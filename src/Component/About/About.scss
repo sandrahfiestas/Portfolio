@@ -1,36 +1,43 @@
-.about {
+.div-about-me {
     display: flex;
-    text-align: center;
-    padding-top: 5em;
-    margin: 0 13% ;
-    height: auto;
-    word-wrap: wrap break-word;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7.8rem;
+    margin: 0% 5%;
 }
 
+.div-about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.div-about-me {
-    padding-top: 3em;
+.div-photo {
+    width: 16rem;
+}
+
+.photo {
+    width: 100%;
 }
 
 .title-about-me{
-    margin-top: 0.3em;
-    font-size: 2em;
+    font-size: 2.5rem;
+    margin: 0.5rem 0rem 1.4rem;
     color: #293949
 }
 
 .p-about-me {
-    margin-top: 20px;
-    font-size: 1.2em;
-    line-height : 30px;
+    font-size: 1.7rem;
+    text-align: justify;
+    line-height : 2.2rem;
 }
 
 .btn-cv {
-    margin-top: 20px;
-    margin-bottom: 0;
     width: 135px;
     height: 45px;
-    font-size: 1em;
-    padding: 7px 25px;
+    font-size: 1.5rem;
+    padding: 0.7rem 2.5rem;
+    margin: 2rem;
     border: none;
     border-radius: 5px;    
     color: #ffffff;
@@ -46,64 +53,61 @@
 }
 
 
-.div-photo {
-    display: flex;
-    align-items: center;
-    padding: 2em;
-}
-
-.photo {
-    width: 280px;
-}
-
-@media (max-width: 1024px){
-    .about {
-        flex-direction: column-reverse;
-        padding-top: 5.5em;
+@media (min-width:480px) {
+    .p-about-me {
+        padding: 0 10%;
     }
 
+    .btn-cv {
+        font-size: 1.8rem;  
+    }
+}
+
+@media (min-width: 768px) {
     .div-photo {
-       justify-content: center;
-        padding: 0;
-    }
-
-    .photo {
-        width: 200px;
-    }
-
-    .div-about-me {
-        padding: 0.5em;
+        width: 18rem;
     }
 
     .title-about-me{
-        margin-top: 0.2em;
-        font-size: 2em;
+        font-size: 2.8rem;
+        margin: 0.5rem 0rem 1.6rem;
     }
-
+    
     .p-about-me {
-        margin-top: 20px;
-        line-height : 28px;
-        text-align: justify;
+        font-size: 2rem;
+        line-height: 2.8rem;
     }
 }
 
-@media (max-width: 360px){
-    .about {
-        margin: 0 0.8em;
+@media (min-width: 1024px) {
+    .div-about-me {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 13rem;
+        margin: 0% 13%;
+    }
+    
+    .div-photo {
+        width: 30%;
+        margin-bottom: 5%;
     }
 
-    .p-about-me {
-        font-size: 1em;
-        line-height : 21px;
-    }
-
-    .photo {
-        width: 150px;
+    .div-about-text {
+        width: 70%;
+        margin: 0 0.8rem 0;
     }
 
     .title-about-me{
-        margin-top: 0.2em;
-        font-size: 1.5em;
+        font-size: 3rem;
+        margin: 0.8rem 0rem 1.8rem;
+    }
+    
+    .p-about-me {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding: 0;
     }
 }
 
