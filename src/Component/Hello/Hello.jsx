@@ -27,6 +27,12 @@ function Hello() {
           </h3>
       </div>
 
+        <button className="btn-down">
+        <a className="a-about" href="#about">
+          <i class="fas fa-angle-double-down"></i>
+        </a>
+        </button>
+
     </div>
   );
 };
