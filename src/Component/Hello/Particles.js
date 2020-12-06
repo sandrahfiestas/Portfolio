@@ -12,6 +12,9 @@ function ParticlesEffect(){
           particles: {
           color: '#fff', // Color vertice
           color_random: false,
+          number: {
+              value: 30,
+            },
           // shape: 'circle', // "circle", "edge" or "triangle" 
           shape: {
             type: "image",
