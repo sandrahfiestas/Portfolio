@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Maya Clientes - Yanbal",
+        "name": "",
+        "description": "Aplicación diseñada en mobile first, tiene como objetivo que las consultoras puedan registrar a sus clientes y sus preferencias de compra para posteriormente ofrecerles variedad de productos. También permite registrar pedidos, monto a cobrar y fechas de pago.",
+        "technology": "Desarrollada en React, HTML, CSS, Sass, JavaScript, Bootstrap Firebase.",
+        "image": "https://i.ibb.co/Mht8yk9/maya-Clientes-yanbal.jpg",
+        "linkWeb": "https://github.com/sandrahfiestas/mayaclientes-yanbal",
+        "linkRepo": "https://github.com/sandrahfiestas/mayaclientes-yanbal"
+
+    },
+    {
+        "title": "Restaurante",
+        "name": "Burger Queen",
+        "description": "Aplicación de tablet, que permite a los meseros(as) tomar pedidos, registrar costos de consumos de clientes y enviarlos al chef de cocina, quien verá los pedidos por orden para ser preparados y finalmente ser entregados por el mesero(a).",
+        "technology": "Desarrollada en React, HTML, CSS, Sass, JavaScript, Firebase, GitHub, Heroku.",
+        "image": "https://i.ibb.co/C9Cnn7N/burger-queen.gif",
+        "linkWeb": "https://burger-queen-react.herokuapp.com/",
+        "linkRepo": "https://github.com/sandrahfiestas/LIM012-fe-burger-queen"
+
+    },
+    {
+        "title": "Markdown Links",
+        "name": "",
+        "description": "Proyecto back-end, desarrollando una librería que verifica los links dentro de un archivo Markdown, mostrando reportes estadisticos de enlaces totales, así como  identificar aquellos que esten rotos o no son válidos",
+        "technology": "Desarrollada en Node.js, JavaScript, Npm, Git, Jest",
+        "image": "https://i.ibb.co/VCGXbXC/md-Links.gif",
+        "linkWeb": "",
+        "linkRepo": "https://github.com/sandrahfiestas/LIM012-fe-md-links"
+    },
+    {
+        "title": "Red Social",
+        "name": "Voz Amiga",
+        "description": "Aplicación responsiva desarrollada para crear comunidad entre mujeres, brindando un espacio de confianza y encuentro, en donde podrán actualizar sus datos de perfil, así como  postear texto y/o imagenes, editarlos y/o eliminarlos. Permite loguearse con e-mail o Google.",
+        "technology": "Desarrollada en HTML, CSS, JavaScript, Firebase, GitHub.",
+        "image": "https://i.ibb.co/gPcZfPt/red-social.gif",
+        "linkWeb" : "https://sandrahfiestas.github.io/LIM012-fe-social-network/src/#/signin",
+        "linkRepo": "https://github.com/sandrahfiestas/LIM012-fe-social-network"
+    }
+
+
+]
