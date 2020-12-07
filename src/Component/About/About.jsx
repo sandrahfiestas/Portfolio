@@ -21,7 +21,7 @@ function About(){
                 Disfruto de las actividades familiares y los juegos de mesa son
                 la forma más divertida de pasar mi tiempo libre.
                 </p>
-               <button className="btn-cv"><a target="_blank"  href="https://drive.google.com/file/d/1MwxxzKvFkpwNt3mwzFtsM5X7sanIpwMk/view?usp=sharing">Ver CV</a></button>
+               <button className="base_buttons"><a target="_blank"  href="https://drive.google.com/file/d/1MwxxzKvFkpwNt3mwzFtsM5X7sanIpwMk/view?usp=sharing">Ver CV</a></button>
               </div>
             </div>          
         </section>
