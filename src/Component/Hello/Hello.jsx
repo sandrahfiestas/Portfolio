@@ -10,7 +10,7 @@ function Hello() {
       <ParticlesEffect />    
       
         <div className="div-name">
-        <h4 className="hi">HOLA, soy</h4>
+        <h4 className="hi">Hola, soy</h4>
         <h1 className="name">Sandra Huamán Fiestas</h1>
         <p className="line"></p>
           <h3 className="texts">
