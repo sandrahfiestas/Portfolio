@@ -8,7 +8,7 @@ function Contact(){
         <h1 className="title-contact">CONTÁCTAME</h1>
         <div className="networking">
 
-        <div className="btn-network">
+        <div className="btn-network-gmail">
           <a className="a-network" target="_blank"  href="mailto:shfiestas@gmail.com">
               <div className="div-icon-network">
                <img src={require('../../images/icon-gmail.png')} alt="icon-gmail" className="icon-network"></img>
@@ -17,7 +17,7 @@ function Contact(){
           </a>
         </div>
       
-        <div className="btn-network">
+        <div className="btn-network-linkendin">
           <a className="a-network" target="_blank"  href="https://www.linkedin.com/in/sandrahuam%C3%A1nfiestas/">
               <div className="div-icon-network">
                 <img src={require('../../images/icon-linkendin.png')} alt="icon-linkendIn" className="icon-network"></img>
@@ -26,7 +26,7 @@ function Contact(){
           </a>
         </div>
 
-        <div className="btn-network">
+        <div className="btn-network-github">
          <a className="a-network" target="_blank"  href="https://github.com/sandrahfiestas">
             <div className="div-icon-network">
               <img src={require('../../images/icon_github.png')} alt="icon-github" className="icon-network"></img>
