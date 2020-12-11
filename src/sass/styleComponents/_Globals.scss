@@ -1,0 +1,26 @@
+// == PALETA == //
+$primary-color: #01a9db;
+$white : #ffffff;
+$black : #000000;
+$btn-hover: #005fab; 
+$text-bold: #293949;
+$gmail-color: #D54B3D;
+$linkendin-color: #379AD0;
+
+
+// == MIXIN == //
+@mixin base_buttons_network {
+  width: 170px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  margin: 2rem 0 0 ;
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

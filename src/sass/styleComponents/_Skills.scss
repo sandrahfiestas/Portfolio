@@ -6,9 +6,9 @@
 .subtitle {
   font-size: 4rem;
   padding-bottom: 0.3rem;
-  color: #01a9db;
+  color: $primary-color;
   border-bottom: solid;
-  border-bottom-color:  #01a9db;
+  border-bottom-color:  $primary-color;
   border-bottom-width: 0.4rem; 
 }
 
@@ -22,8 +22,8 @@
 
 .skills-details {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: flex-end;
 
   p {
@@ -42,10 +42,6 @@
     margin: 0 10%;
   }
 
-  // .subtitle {
-  //   font-size: 3.5rem;
-  // }
-
   .skills {
     padding: 5% 0 ;
     grid-template-columns: repeat(4, 1fr);
@@ -63,10 +59,6 @@
 }
 
 @media (min-width: 1024px) {
-  // .subtitle {
-  //   font-size: 4rem;
-  // }
-
   .skills {
     grid-template-columns: repeat(6, 1fr);
     row-gap: 25%;

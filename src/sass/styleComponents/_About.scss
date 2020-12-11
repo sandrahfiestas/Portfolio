@@ -1,15 +1,15 @@
 .div-about-me {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     padding-top: 7.8rem;
     margin: 0% 5%;
 }
 
 .div-about-text {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
 .div-photo {
@@ -23,7 +23,7 @@
 .title-about-me{
     font-size: 2.5rem;
     margin: 0.5rem 0rem 1.4rem;
-    color: #293949
+    color: $text-bold;
 }
 
 .p-about-me {
@@ -39,14 +39,14 @@
     margin: 2rem;
     border: none;
     border-radius: 5px;    
-    color: #ffffff;
-    background-color: #01a9db;
-    box-shadow: 1px 1px 2px #005fab;
+    color: $white;
+    background-color: $primary-color;
+    box-shadow: 1px 1px 2px $btn-hover;
     outline: inherit;
     cursor: pointer;
 
     &:hover {
-        background-color: #005fab;
+        background-color: $btn-hover;
         transition: .5s;
     }
 }

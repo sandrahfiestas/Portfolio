@@ -1,11 +1,12 @@
 import React from 'react';
-import Navbar from './Component/Navbar/Navbar';
+import './css/Estilos.css';
+import Navbar from './Component/Navbar';
 import Hello from './Component/Hello/Hello';
-import About from './Component/About/About';
-import Skills from './Component/Skills/Skills';
-import Projects from './Component/Projects/Projects';
-import Contact from './Component/Contact/Contact';
-import Footer from './Component/Footer/Footer';
+import About from './Component/About';
+import Skills from './Component/Skills';
+import Projects from './Component/Projects';
+import Contact from './Component/Contact';
+import Footer from './Component/Footer';
 
 function App() {
   return (

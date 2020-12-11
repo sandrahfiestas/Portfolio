@@ -1,7 +1,6 @@
 import React from 'react';
 import ParticlesEffect from './Particles';
 import Typical from 'react-typical';
-import './Hello.scss';
 
 function Hello() {
 
@@ -29,7 +28,7 @@ function Hello() {
 
         <button className="btn-down">
         <a className="a-about" href="#about">
-          <i class="fas fa-angle-double-down"></i>
+          <i className="fas fa-angle-double-down"></i>
         </a>
         </button>
 
