@@ -27,24 +27,17 @@
 }
 
 .btn-network-gmail {
-  @include base_buttons_network;
-  color: $gmail-color;
-  border: 2px solid $gmail-color;
+  @include base_buttons_network ($gmail-color);
   box-shadow: 6px 6px 10px -1px rgba(213, 75, 61, 0.15);
 }
 
-
 .btn-network-linkendin {
-  @include base_buttons_network;
-  color: $linkendin-color;
-  border: 2px solid $linkendin-color;
+  @include base_buttons_network ($linkendin-color);
   box-shadow: 6px 6px 10px -1px rgba(55, 154, 208, 0.15);
 }
 
 .btn-network-github {
-  @include base_buttons_network;
-  color: $black;
-  border: 2px solid $black;
+  @include base_buttons_network ($black);
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
 }
 
