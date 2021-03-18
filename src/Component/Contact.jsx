@@ -17,7 +17,7 @@ function Contact(){
         </div>
       
         <div className="btn-network-linkendin">
-          <a className="a-network" target="_blank"  href="www.linkedin.com/in/sandrahuamanfiestas">
+          <a className="a-network" target="_blank"  href="https://www.linkedin.com/in/sandrahuamanfiestas/">
               <div className="div-icon-network">
                 <img src={require('../images/icon-linkendin.png')} alt="icon-linkendIn" className="icon-network"></img>
               </div>
