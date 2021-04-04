@@ -14,7 +14,8 @@ function ProjectsCarousel(){
   });
 
   return(
-  <section id="project" className="container-projects">
+  <section id="project" className="section-projects">
+    <div className="container-projects">
     <h2 className="subtitle">Proyectos</h2>
       <Carousel>
       {projects.length && projects.map((project, index) => 
@@ -45,6 +46,7 @@ function ProjectsCarousel(){
         </Carousel.Item>
       )}
       </Carousel>
+      </div>
     </section>
 
   );
