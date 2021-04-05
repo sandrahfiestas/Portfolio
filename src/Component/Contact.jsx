@@ -2,7 +2,8 @@ import React  from 'react';
 
 function Contact(){
   return(
-    <section id="contact" className="container-contact">
+    <section id="contact" className="section-contact">
+      <div className="container-contact">
         <p className="subtitle-two">¿Listo para hablar sobre trabajar juntos?</p>
         <h1 className="title-contact">CONTÁCTAME</h1>
         <div className="networking">
@@ -33,6 +34,7 @@ function Contact(){
             <p className="p-network">GitHub</p>
           </a>
         </div>
+      </div>
       </div>
     </section>
   )

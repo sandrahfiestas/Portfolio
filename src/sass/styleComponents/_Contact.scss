@@ -1,12 +1,16 @@
+.section-contact {
+  background-color: #D8EEFE;
+}
+
 .container-contact {
-  margin: 10%;
+  padding: 10%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .subtitle-two {
-  margin-top: 0;
+  margin-top: 20px;
   font-size: 2.8rem;
   text-align: center;
   color: $primary-color;
@@ -29,16 +33,43 @@
 .btn-network-gmail {
   @include base_buttons_network ($gmail-color);
   box-shadow: 6px 6px 10px -1px rgba(213, 75, 61, 0.15);
+
+  a {
+    color: $gmail-color;
+
+    &:hover {
+      color: $gmail-color;
+      text-decoration: none;
+    }
+  }
 }
 
 .btn-network-linkendin {
   @include base_buttons_network ($linkendin-color);
   box-shadow: 6px 6px 10px -1px rgba(55, 154, 208, 0.15);
+
+  a {
+    color: $linkendin-color;
+
+    &:hover {
+      color: $linkendin-color;
+      text-decoration: none;
+    }
+  }
 }
 
 .btn-network-github {
   @include base_buttons_network ($black);
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+
+  a {
+    color: $black;
+
+    &:hover {
+      color: $black;
+      text-decoration: none;
+    }
+  }
 }
 
 .a-network {

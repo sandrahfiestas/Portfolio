@@ -2,7 +2,7 @@ import React from 'react';
 
 function About(){
     return(
-        <section>
+        <section className="container-about">
             <div id="about" className="div-about-me">
               <div className="div-photo">
                 <img className="photo" alt="photo" src={require('../images/photo.png')}></img>

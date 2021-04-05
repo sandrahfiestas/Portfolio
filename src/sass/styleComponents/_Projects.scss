@@ -1,3 +1,7 @@
+.section-projects {
+  background-color: #D8EEFE;
+}
+
 .container-projects {
   padding-top: 9rem;
   margin: 0 5%;
@@ -14,7 +18,7 @@
   width: 32.6rem;
   padding: 0.5rem 0.5rem;
   border-radius: 1rem;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.30);
+  // box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.30);
 }
 
 .image-project {
@@ -46,6 +50,7 @@
   display: flex;
   justify-content: center;
 }
+
 
 @media (min-width: 480px) {
   .container-projects {

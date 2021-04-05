@@ -1,5 +1,5 @@
 .div-hello {
-  margin-top: 7rem;
+  // margin-top: 7rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -53,6 +53,10 @@
   cursor: pointer;
   outline: inherit;
   transition: all 300ms ease;
+
+  a {
+    color: $white;
+  }
 }
 
 .btn-down:hover {

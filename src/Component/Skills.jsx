@@ -2,7 +2,8 @@ import React  from 'react';
 
 function Skills(){
   return(
-      <section className="container-skills">
+    <section className="section-skills">
+     <div className="container-skills">
         <h2 className="subtitle">Skills</h2>
         <div className="skills">
           <div className="skills-details">
@@ -54,6 +55,7 @@ function Skills(){
             <p>Heroku</p>
           </div>
         </div>
+      </div>
     </section>
   ) 
 };
