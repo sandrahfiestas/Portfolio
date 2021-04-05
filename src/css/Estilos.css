@@ -71,8 +71,6 @@ nav {
   }
 }
 .div-hello {
-  margin-top: 7rem;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
