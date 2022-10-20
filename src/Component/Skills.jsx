@@ -18,16 +18,16 @@ function Skills(){
             <p>SASS</p>
           </div>
           <div className="skills-details">
-            <img src={require('../images/icon_js.png')} alt="icon_sass" className="skills-icons"></img>
+            <img src={require('../images/icon_bootstrap.png')} alt="icon_bootstrap" className="skills-icons"></img>
+            <p>Bootstrap</p>
+          </div>
+          <div className="skills-details">
+            <img src={require('../images/icon_js.png')} alt="icon_javascript" className="skills-icons"></img>
             <p>JavaScript</p>
           </div>
           <div className="skills-details">
             <img src={require('../images/icon_react.png')} alt="icon_reactjs" className="skills-icons"></img>
             <p>React</p>
-          </div>
-          <div className="skills-details">
-            <img src={require('../images/icon_angular.png')} alt="icon_angular" className="skills-icons"></img>
-            <p>Angular</p>
           </div>
           <div className="skills-details">
             <img src={require('../images/icon_firebase.png')} alt="icon_firebase" className="skills-icons"></img>
@@ -50,8 +50,8 @@ function Skills(){
             <p>GitHub</p>
           </div>
           <div className="skills-details">
-            <img src={require('../images/icon_heroku.png')} alt="icon_heroku" className="skills-icons"></img>
-            <p>Heroku</p>
+            <img src={require('../images/icon_vercel.png')} alt="icon_vercel" className="skills-icons"></img>
+            <p>Vercel</p>
           </div>
         </div>
     </section>
